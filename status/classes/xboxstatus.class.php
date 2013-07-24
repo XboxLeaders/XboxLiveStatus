@@ -13,9 +13,9 @@
 class XboxStatus {
 
     public function find($haystack, $start, $finish) {
-        $s = explode($haystack, $start);
-        $s = explode($finish, $s[0]);
-        return $s[1];
+        $s = explode($start, $haystack);
+        $s = explode($finish, $s[1]);
+        return $s[0];
     }
 
     public function http($url) {

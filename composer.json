@@ -1,0 +1,23 @@
+{
+  "name": "xboxleaders/xboxlivestatus",
+  "description": "Monitor Xbox LIVE Service Alerts and post to Twitter if a Service Alert exists",
+  "keywords": ["xbox", "xboxlive", "status", "twitter"],
+  "homepage": "https://www.xboxleaders.com/",
+  "authors": [
+    {
+      "name": "Jason Clemons",
+      "email": "me@jasonclemons.me",
+      "role": "Creator/Developer",
+      "homepage": "http://jasonclemons.me"
+    }
+  ],
+  "license": [
+      "MIT"
+  ],
+  "require": {
+      "php": ">=5.4.0"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "3.7.x"
+  }
+}
