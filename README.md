@@ -12,9 +12,9 @@
     1. Go to http://dev.twitter.com
     2. Click on 'Register an app'
     3. Fill out the form to register the application
-      -> Application type: Browser
-      -> Callback URL: http://www.example.com/status/index.php
-      -> Default access type: Read & Write
+      *Application type: Browser
+      *Callback URL: http://www.example.com/status/index.php
+      *Default access type: Read & Write
     4. Accept Terms of Use
     5. You will then receive your Consumer and Access Keys
 
@@ -22,3 +22,4 @@
   1. Get [Composer](https://getcomposer.org)
   2. Install library `php composer.phar xboxleaders/xboxlivestatus`
   3. Install dependencies `php composer.phar install`
+  4. Set up cron `0 * * * * wget -O /dev/null http://www.example.com/status/index.php`

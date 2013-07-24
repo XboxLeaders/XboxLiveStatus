@@ -32,7 +32,7 @@ class XboxStatus {
     }
 
     public function tweet() {
-		$tweet = 'There is a Service Alert for Xbox LIVE. Please see http://support.xbox.com/xbox-live-status for more information. #XboxLiveStatus #ServiceAlert';
+        $tweet = 'There is a Service Alert for Xbox LIVE. Please see http://support.xbox.com/xbox-live-status for more information. #XboxLiveStatus #ServiceAlert';
         $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET);
         $result = $connection->post('statuses/update', $tweet);
 
